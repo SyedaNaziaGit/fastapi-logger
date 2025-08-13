@@ -1,0 +1,4 @@
+Running in Docker Production Mode:
+
+docker build -t logger_fastapi .
+docker run -p 8000:8000 -e ENV=prod logger_fastapi
